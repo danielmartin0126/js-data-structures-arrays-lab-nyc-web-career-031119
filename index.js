@@ -17,7 +17,7 @@ function destructivelyRemoveFirstDriver() {
   drivers.shift()
 }
 
-function appendDriver(name) {
+function prependDriver(name) {
   let newDrivers = [`${name}`, ...drivers]
   return newDrivers
 }
